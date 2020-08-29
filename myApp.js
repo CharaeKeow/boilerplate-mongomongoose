@@ -14,7 +14,7 @@
 //
 // mongoose.connect(<Your URI>, { useNewUrlParser: true, useUnifiedTopology: true }); 
 const mongoose = require('mongoose');
-monggose.connect(db_url.env.MONGO_URI);
+mongoose.connect(db_url.env.MONGO_URI);
 
 
 /** # SCHEMAS and MODELS #
